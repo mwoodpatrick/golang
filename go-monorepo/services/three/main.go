@@ -25,7 +25,7 @@ func main() {
 		fmt.Fprintf(w, "Hello!")
 	})
 
-	http.HandleFunc("/hello2", helloHandler)
+	http.HandleFunc("/three/hello2", helloHandler)
 
 	fmt.Printf("Starting server at port 8080\n")
 
