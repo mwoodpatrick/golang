@@ -3,7 +3,7 @@ package main
 import (
   "net/http"
 
-  "github.com/mwoodpatrick/golang/go-monorepo/libs/hello v0.0.0"
+  "github.com/mwoodpatrick/golang/go-monorepo/libs/hello"
   "github.com/labstack/echo/v4"
 )
 
