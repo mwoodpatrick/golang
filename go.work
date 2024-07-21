@@ -6,4 +6,6 @@ use (
 	./go-monorepo/services/three
 	./go-monorepo/services/two
 	./hello
+	./kubefirst/kubefirst
+	./kubefirst/kubefirst-api
 )

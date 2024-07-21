@@ -1,36 +1,35 @@
 package main
 
 import (
-    "fmt"
-    "log"
-    "net/http"
+	"fmt"
+	"log"
+	"net/http"
 )
 
 func helloHandler(w http.ResponseWriter, r *http.Request) {
-    if r.URL.Path != "/hello2" {
-        http.Error(w, "404 not found.", http.StatusNotFound)
-        return
-    }
+	if r.URL.Path != "/three/hello2" {
+		http.Error(w, "404 not found.", http.StatusNotFound)
+		return
+	}
 
-    if r.Method != "GET" {
-        http.Error(w, "Method is not supported.", http.StatusNotFound)
-        return
-    }
+	if r.Method != "GET" {
+		http.Error(w, "Method is not supported.", http.StatusNotFound)
+		return
+	}
 
-
-    fmt.Fprintf(w, "Hello World!")
+	fmt.Fprintf(w, "Hello World!")
 }
 
 func main() {
-     http.HandleFunc("/hello", func(w http.ResponseWriter, r *http.Request){
-        fmt.Fprintf(w, "Hello!")
-    })
+	http.HandleFunc("/three/hello", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Fprintf(w, "Hello!")
+	})
 
-    http.HandleFunc("/hello2", helloHandler)
+	http.HandleFunc("/hello2", helloHandler)
 
-    fmt.Printf("Starting server at port 8080\n")
+	fmt.Printf("Starting server at port 8080\n")
 
-    if err := http.ListenAndServe(":8080", nil); err != nil {
-        log.Fatal(err)
-    }
+	if err := http.ListenAndServe(":8080", nil); err != nil {
+		log.Fatal(err)
+	}
 }
