@@ -1,0 +1,9 @@
+go 1.22.5
+
+use (
+	./example/hello
+	./go-monorepo/services/one
+	./go-monorepo/services/three
+	./go-monorepo/services/two
+	./hello
+)
