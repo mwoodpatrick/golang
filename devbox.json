@@ -11,7 +11,9 @@
     "firefox@127.0.2",
     "nss@3.90.2",
     "google-chrome@126.0.6478.126",
-    "gox@latest"
+    "gox@latest",
+    "rustup@latest",
+    "libiconv@latest"
   ],
   "shell": {
     "init_hook": [
