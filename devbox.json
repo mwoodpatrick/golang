@@ -11,6 +11,7 @@
     "firefox@127.0.2",
     "nss@3.90.2",
     "google-chrome@126.0.6478.126",
+    "go@latest",
     "gox@latest",
     "rustup@latest",
     "libiconv@latest"

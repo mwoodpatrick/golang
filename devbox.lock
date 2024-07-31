@@ -174,8 +174,8 @@
       }
     },
     "git@2.45.1": {
-      "last_modified": "2024-07-05T12:16:31Z",
-      "resolved": "github:NixOS/nixpkgs/4284c2b73c8bce4b46a6adf23e16d9e2ec8da4bb#git",
+      "last_modified": "2024-07-05T03:18:27Z",
+      "resolved": "github:NixOS/nixpkgs/d9c0b9d611277e42e6db055636ba0409c59db6d2#git",
       "source": "devbox-search",
       "version": "2.45.1",
       "systems": {
@@ -233,12 +233,12 @@
               "default": true
             },
             {
-              "name": "doc",
-              "path": "/nix/store/ba7r274fm1v4r9zfgjr4qfsby1hxikgc-git-2.45.1-doc"
-            },
-            {
               "name": "debug",
               "path": "/nix/store/4r2pm5la8w0zl12lqf6lwg8ycq28jbll-git-2.45.1-debug"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/ba7r274fm1v4r9zfgjr4qfsby1hxikgc-git-2.45.1-doc"
             }
           ],
           "store_path": "/nix/store/jsbha1gg6lzzj7icrg3h0npgm8vwf80c-git-2.45.1"
@@ -452,56 +452,56 @@
       }
     },
     "neovim@latest": {
-      "last_modified": "2024-07-07T16:08:25Z",
-      "resolved": "github:NixOS/nixpkgs/ab82a9612aa45284d4adf69ee81871a389669a9e#neovim",
+      "last_modified": "2024-07-25T18:56:32Z",
+      "resolved": "github:NixOS/nixpkgs/2122a9b35b35719ad9a395fe783eabb092df01b1#neovim",
       "source": "devbox-search",
-      "version": "0.10.0",
+      "version": "0.10.1",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/vb3mzbac5g8mqh1m2z2746jagph5w71p-neovim-0.10.0",
+              "path": "/nix/store/xb3959wfymm41q494bcsr076zhd7iy30-neovim-0.10.1",
               "default": true
             }
           ],
-          "store_path": "/nix/store/vb3mzbac5g8mqh1m2z2746jagph5w71p-neovim-0.10.0"
+          "store_path": "/nix/store/xb3959wfymm41q494bcsr076zhd7iy30-neovim-0.10.1"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/v6k5vdfp3h59h4j3dwdp9kd52lv04hk4-neovim-0.10.0",
+              "path": "/nix/store/6p8p4i16h9f8s21a95khrx4s7dwhj6cx-neovim-0.10.1",
               "default": true
             }
           ],
-          "store_path": "/nix/store/v6k5vdfp3h59h4j3dwdp9kd52lv04hk4-neovim-0.10.0"
+          "store_path": "/nix/store/6p8p4i16h9f8s21a95khrx4s7dwhj6cx-neovim-0.10.1"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/59cx2vjn99m1hfvg4gfqjnylhn1q4mp1-neovim-0.10.0",
+              "path": "/nix/store/4p9b4xm0l8j2ki25v2yszdjdmdawzgd6-neovim-0.10.1",
               "default": true
             }
           ],
-          "store_path": "/nix/store/59cx2vjn99m1hfvg4gfqjnylhn1q4mp1-neovim-0.10.0"
+          "store_path": "/nix/store/4p9b4xm0l8j2ki25v2yszdjdmdawzgd6-neovim-0.10.1"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/xsqpns8p3czs19dcsl7iri48lqz2mlg9-neovim-0.10.0",
+              "path": "/nix/store/r42ydp43zin4plqblhmc21sxbldcd561-neovim-0.10.1",
               "default": true
             }
           ],
-          "store_path": "/nix/store/xsqpns8p3czs19dcsl7iri48lqz2mlg9-neovim-0.10.0"
+          "store_path": "/nix/store/r42ydp43zin4plqblhmc21sxbldcd561-neovim-0.10.1"
         }
       }
     },
     "nss@3.90.2": {
-      "last_modified": "2024-07-17T09:45:27Z",
-      "resolved": "github:NixOS/nixpkgs/5e73714b16ca222dcb2fc3ea2618fd7ba698da65#nss",
+      "last_modified": "2024-07-25T18:56:32Z",
+      "resolved": "github:NixOS/nixpkgs/2122a9b35b35719ad9a395fe783eabb092df01b1#nss",
       "source": "devbox-search",
       "version": "3.90.2",
       "systems": {
@@ -549,12 +549,12 @@
               "default": true
             },
             {
-              "name": "tools",
-              "path": "/nix/store/iwjxmn52snksqxwwk8nrcx20kacmyhgp-nss-3.90.2-tools"
-            },
-            {
               "name": "dev",
               "path": "/nix/store/ms9f41p9968piifznh751imjwizaxrc5-nss-3.90.2-dev"
+            },
+            {
+              "name": "tools",
+              "path": "/nix/store/iwjxmn52snksqxwwk8nrcx20kacmyhgp-nss-3.90.2-tools"
             }
           ],
           "store_path": "/nix/store/9382niwhx919nfgw9lyhhzf6nyshsi0b-nss-3.90.2"
